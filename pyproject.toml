@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crossphon"
+version = "0.1.0"
+description = "Automatic segmental and tonal IPA mapping for cross-language forced alignment"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  {name = "Hongchen Wu"},
+  {name = "Yixin Gu"},
+]
+keywords = ["IPA", "forced alignment", "phonetics", "low-resource languages", "tone"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["crossphon*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
