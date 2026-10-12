@@ -3,7 +3,7 @@
 Automatic IPA phone and tone mapping for cross-language forced alignment.
 
 - [CrossPhon: An Auto Phone Mapping Tool to Streamline Cross-language Modeling for Phone Alignment of Low-resource Languages](https://doi.org/10.21437/Interspeech.2025-2401), Interspeech 2025
-- [CrossPhon-Tonal: Streamlining Cross-language Modeling for Forced Alignment in Low-resource Tonal Languages](https://doi.org/10.21437/Interspeech.2026-1770), Interspeech 2026
+- [CrossPhon-Tonal: Streamlining Cross-language Modeling for Forced Alignment in Low-resource Tonal Languages](https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.html), Interspeech 2026
 
 CrossPhon converts a source-language pronunciation dictionary so it can be used with an acoustic model trained for a target language. CrossPhon-Tonal extends the workflow to languages written with Chao tone letters (`˩ ˨ ˧ ˦ ˥`).
 
