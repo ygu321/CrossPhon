@@ -138,3 +138,8 @@ For tone mapping, please also cite:
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+## Contact Info
+hwu480 at gatech dot edu
+
+yixingu2 at illinois dot edu
