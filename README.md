@@ -1,7 +1,5 @@
 # CrossPhon: Automatic Cross-Language IPA Phone Mapping for Forced Alignment
 
-**Automatic IPA phone and tone mapping for cross-language forced alignment.**
-
 **CrossPhon** is an open-source Python tool for automatically mapping IPA phones between languages using articulatory phonetic features. It helps researchers perform cross-language forced alignment when language-specific acoustic models are unavailable, particularly for low-resource languages.
 
 **CrossPhon-Tonal** extends the framework with automatic lexical tone mapping, enabling cross-language forced alignment between tonal and non-tonal languages.
