@@ -1,7 +1,12 @@
-# CrossPhon and CrossPhon-Tonal
+# CrossPhon: Automatic Cross-Language IPA Phone Mapping for Forced Alignment
 
-Automatic IPA phone and tone mapping for cross-language forced alignment.
+**Automatic IPA phone and tone mapping for cross-language forced alignment.**
 
+**CrossPhon** is an open-source Python tool for automatically mapping IPA phones between languages using articulatory phonetic features. It helps researchers perform cross-language forced alignment when language-specific acoustic models are unavailable, particularly for low-resource languages.
+
+**CrossPhon-Tonal** extends the framework with automatic lexical tone mapping, enabling cross-language forced alignment between tonal and non-tonal languages.
+
+The toolkit supports automatic phone inventory extraction, phonetic distance-based mapping, tone mapping, and pronunciation dictionary conversion.
 - [CrossPhon: An Auto Phone Mapping Tool to Streamline Cross-language Modeling for Phone Alignment of Low-resource Languages](https://doi.org/10.21437/Interspeech.2025-2401), Interspeech 2025
 - [CrossPhon-Tonal: Streamlining Cross-language Modeling for Forced Alignment in Low-resource Tonal Languages](https://www.isca-archive.org/interspeech_2026/wu26e_interspeech.html), Interspeech 2026
 
